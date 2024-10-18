@@ -8,6 +8,6 @@ In order to use vk_group_all_posts.ipynb you need to:
 4. In Google Colab, upload the config.py file to session storage
 
 
-![Create a VK application and get the token at dev.vk.com](images/vk4developers_access_token_2024.png)
+![Create a VK application and get the token at dev.vk.com](../../images/vk4developers_access_token_2024.png)
 
 
