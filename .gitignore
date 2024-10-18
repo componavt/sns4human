@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-config.py
+src/vk/config.py
 
 # C extensions
 *.so
