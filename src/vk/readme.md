@@ -7,8 +7,6 @@ In order to use vk_group_all_posts.ipynb you need to:
 3. Paste your token into the config.py file 
 4. In Google Colab, upload the config.py file to session storage
 
-
- Image for Step 2: get the *Service token* at dev.vk.com
-![Create a VK application and get the token at dev.vk.com](../../images/vk4developers_access_token_2024.png)
-
+![](../../images/vk4developers_access_token_2024.png)
+*Step 2: ...get the *Service token* at dev.vk.com*
 
