@@ -10,3 +10,6 @@ In order to use vk_group_all_posts.ipynb you need to:
 ![](../../images/vk4developers_access_token_2024.png)
 *Step 2: ...get the *Service token* at dev.vk.com*
 
+| ![space-1.jpg](../../images/vk4developers_access_token_2024.png) | 
+|:--:| 
+| *Step 2: ...get the *Service token* at dev.vk.com* |
