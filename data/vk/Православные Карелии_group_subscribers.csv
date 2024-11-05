@@ -1,0 +1,122 @@
+id,bdate,city,sex,first_name,last_name,can_access_closed,is_closed,deactivated
+468689,19.11.1968,"{'id': 320, 'title': 'Lyon'}",1,Ekaterina,Terekhina,True,False,
+544360,,"{'id': 429, 'title': 'Tegucigalpa'}",1,Irina,Poliektova,True,False,
+671449,15.2,"{'id': 112, 'title': 'Petrozavodsk'}",2,Alexey,Tsykarev,True,False,
+773377,30.4.1973,"{'id': 2, 'title': 'Saint Petersburg'}",2,Vladimir,Flavyanov,True,False,
+1239081,25.5.1946,"{'id': 41, 'title': 'Vologda'}",1,Nina,Zaytseva,True,False,
+1359539,12.4.1990,"{'id': 1, 'title': 'Moscow'}",1,Alexandra,Timoshilova,True,False,
+1540889,13.5.1964,"{'id': 2, 'title': 'Saint Petersburg'}",1,Svetlana,Alexeeva,True,False,
+1640466,1.6.1964,"{'id': 2, 'title': 'Saint Petersburg'}",2,Igor,Alexeev,True,False,
+2445152,5.8,"{'id': 112, 'title': 'Petrozavodsk'}",1,Olga,Ignatenko,False,True,
+2595443,15.11.1962,,1,Veronika,Mikkonen,True,False,
+3119895,,"{'id': 726, 'title': 'Belomorsk'}",2,Olexandr,Baruev,True,False,
+3255351,8.12,"{'id': 2, 'title': 'Saint Petersburg'}",1,Irina,Usikova,True,False,
+3306529,,,1,Tatyana,Panyukova,False,True,
+3715777,,"{'id': 112, 'title': 'Petrozavodsk'}",1,Svetlana,Zakharchenko,False,True,
+4950501,1.4.1964,"{'id': 112, 'title': 'Petrozavodsk'}",2,Andrey,Anisimov,True,False,
+5097682,30.8,"{'id': 2, 'title': 'Saint Petersburg'}",2,DELETED,,True,False,deleted
+5750512,16.5.1978,"{'id': 2, 'title': 'Saint Petersburg'}",2,Denis,Ranskalainen,False,True,
+5872461,13.3.1989,"{'id': 20558, 'title': 'Dzerzhinsky'}",2,Miikkul,Lopakov,True,False,banned
+6081389,9.9.1989,"{'id': 112, 'title': 'Petrozavodsk'}",1,Tatyana,Kalinicheva,True,False,
+6471856,22.5,"{'id': 112, 'title': 'Petrozavodsk'}",1,Anastasia,Kiryaynen,True,False,
+6823463,,,2,Antti,Tuhkanen,True,False,
+7031692,2.3,"{'id': 112, 'title': 'Petrozavodsk'}",1,Svetlana,Romanchuk,True,False,
+7218003,21.1.2003,"{'id': 2, 'title': 'Saint Petersburg'}",1,Anechka,Pukkonen,True,False,
+7258817,10.2,"{'id': 2, 'title': 'Saint Petersburg'}",1,Yulia,Babenko,False,True,
+7513945,22.12.1978,"{'id': 2, 'title': 'Saint Petersburg'}",1,Valentina,Savenkova,True,False,
+8048772,8.9.1990,"{'id': 112, 'title': 'Petrozavodsk'}",1,DELETED,,True,False,deleted
+9688324,21.5.1975,"{'id': 1936627, 'title': 'Kruševac'}",2,Milan,Mrenovich,True,False,
+10051689,,"{'id': 2, 'title': 'Saint Petersburg'}",2,Alexander,Zilotov,True,False,
+10162828,18.10.1904,"{'id': 1, 'title': 'Moscow'}",2,Andrey,Russkov,True,False,
+10449536,7.3,"{'id': 1, 'title': 'Moscow'}",1,Yulia,Veronovskaya-Ptashinskaya,True,False,
+10599595,8.5.1976,"{'id': 112, 'title': 'Petrozavodsk'}",1,DELETED,,True,False,deleted
+11454210,,"{'id': 112, 'title': 'Petrozavodsk'}",1,Viktoria,Ivanova,True,False,
+12574135,,"{'id': 112, 'title': 'Petrozavodsk'}",1,Tatyana,Litova,True,False,
+12599118,9.8,"{'id': 2, 'title': 'Saint Petersburg'}",2,Sergey,Vinogradov,True,False,
+12964777,17.9.1975,"{'id': 112, 'title': 'Petrozavodsk'}",2,Konstantin,Savander,True,False,
+13264670,10.11,"{'id': 112, 'title': 'Petrozavodsk'}",1,Elena,Matrosova,True,False,
+14898872,28.4.1971,"{'id': 112, 'title': 'Petrozavodsk'}",2,Andrey,Grishin,True,False,banned
+15128568,24.11.1994,"{'id': 1, 'title': 'Moscow'}",2,DELETED,,True,False,deleted
+15225242,11.1,"{'id': 220, 'title': 'Tallinn'}",1,Kristina,Kireeva,False,True,
+15619217,,"{'id': 221, 'title': 'Turku'}",2,Nikita,Dobronravov,True,False,
+17269346,2.1.1989,,1,Yulia,Kaptur,False,True,
+19879608,13.10.1991,"{'id': 60, 'title': 'Kazan'}",2,Fargat,Khadiev,True,False,banned
+21420554,,,2,Alexander,Shesterikov,True,False,
+22061640,14.1.1982,"{'id': 472, 'title': 'Kostomuksha'}",1,Lenchik,Zinina,True,False,
+25964179,4.10.1991,"{'id': 112, 'title': 'Petrozavodsk'}",1,DELETED,,True,False,deleted
+27967440,,"{'id': 10722, 'title': 'Ledmozero'}",2,Sergey,Melnichenko,True,False,
+29371532,28.2,"{'id': 472, 'title': 'Kostomuksha'}",1,DELETED,,True,False,deleted
+29948134,11.2,"{'id': 112, 'title': 'Petrozavodsk'}",2,Sampo,Ilya,False,True,
+30295976,,"{'id': 221, 'title': 'Turku'}",2,Maxim,Repichev,True,False,
+30296804,28.11.2003,"{'id': 2, 'title': 'Saint Petersburg'}",1,Annya,Razoryonova,True,False,banned
+30875993,2.7.1975,"{'id': 2, 'title': 'Saint Petersburg'}",1,Marina,Terekhina,False,True,
+31187627,20.8.1985,"{'id': 186, 'title': 'Tikhvin'}",2,Alexey,Igolkin,True,False,
+31789038,25.12,"{'id': 472, 'title': 'Kostomuksha'}",2,Alexander,Yaskelyaynen,True,False,
+33129188,2.3.1980,"{'id': 112, 'title': 'Petrozavodsk'}",1,Tatyana,Malinkina,False,True,
+33152408,29.3.1985,"{'id': 112, 'title': 'Petrozavodsk'}",1,DELETED,,True,False,deleted
+36292653,3.1,"{'id': 1086, 'title': 'Kondopoga'}",1,Galina,Kryuchkova,True,False,
+37418078,4.12.1965,"{'id': 2, 'title': 'Saint Petersburg'}",2,Viktor,Lindunen,True,False,
+41584140,7.2.1978,"{'id': 112, 'title': 'Petrozavodsk'}",2,Sergey,Petrov,True,False,banned
+41910773,,,2,Vladimir,Sobolev,True,False,banned
+42233069,,"{'id': 112, 'title': 'Petrozavodsk'}",2,Ivan,Ivanov,False,True,
+42756810,20.7.1993,"{'id': 112, 'title': 'Petrozavodsk'}",1,Nastenka,Mm,True,False,
+44146378,24.1.1986,"{'id': 2, 'title': 'Saint Petersburg'}",2,Dmitry,Plyusnin,False,True,
+45152544,,"{'id': 112, 'title': 'Petrozavodsk'}",2,Alexander,Boyarov,True,False,
+46030815,12.2,"{'id': 112, 'title': 'Petrozavodsk'}",1,DELETED,,True,False,deleted
+46301769,30.3.1977,"{'id': 1005083, 'title': 'Aktau'}",2,Alexander,Sugakov,False,True,
+46714846,12.5.1985,"{'id': 99, 'title': 'Novosibirsk'}",2,Alho,Virolainen,True,False,banned
+46853892,,"{'id': 2, 'title': 'Saint Petersburg'}",2,Anton,Smirnov,True,False,banned
+50084486,,"{'id': 177, 'title': 'Vyborg'}",1,Olga,Lysko,False,True,banned
+54373506,10.9.1971,"{'id': 281, 'title': 'Brest'}",1,Ivan,Dolgoborodov,True,False,
+57051475,,"{'id': 112, 'title': 'Petrozavodsk'}",1,Ekaterina,Kudinova,True,False,
+58086504,13.7.1978,"{'id': 22, 'title': 'Arkhangelsk'}",2,Yury,Kievsky,True,False,
+59586725,28.9,"{'id': 1086, 'title': 'Kondopoga'}",1,Tatyana,Popova,True,False,
+60499209,12.7.1974,"{'id': 1679, 'title': 'Columbus'}",1,Laura,Siraguza,True,False,
+60990128,,,2,DELETED,,True,False,deleted
+63461923,,"{'id': 3941, 'title': 'Bolkhov'}",2,Vlad,Bolkhovich,True,False,banned
+67781302,3.6.1997,"{'id': 38, 'title': 'Vladikavkaz'}",1,Anya,Kariauli,True,False,
+70738201,5.8,"{'id': 112, 'title': 'Petrozavodsk'}",1,Olga,Karonen,True,False,
+73349302,27.9.1967,"{'id': 10159, 'title': 'Oulu'}",2,Andrey,Lindunen,True,False,
+76950416,,"{'id': 112, 'title': 'Petrozavodsk'}",2,Domini,Montessori,True,False,
+82224412,26.9.1967,"{'id': 112, 'title': 'Petrozavodsk'}",2,Oleg,Pashkov,False,True,
+85468139,24.6,"{'id': 147, 'title': 'Tyumen'}",1,Anastasia,Guschina,True,False,
+86510177,30.6,,1,Ekaterina,Budur,False,True,
+88552251,10.3,"{'id': 112, 'title': 'Petrozavodsk'}",1,Natalya,Bondar,True,False,
+89692533,29.4.1973,"{'id': 1086, 'title': 'Kondopoga'}",1,Elena,Kryukovtsova,True,False,
+91870909,,,2,Kirill,Dedov,False,True,
+96042716,,"{'id': 2, 'title': 'Saint Petersburg'}",2,DELETED,,True,False,deleted
+98625136,4.6,"{'id': 112, 'title': 'Petrozavodsk'}",2,Ilya,Shanti,False,True,
+101722462,7.12,"{'id': 112, 'title': 'Petrozavodsk'}",1,Tatyana,Ivashova,True,False,banned
+101771273,,,2,Egor,Andreev,True,False,
+116395579,17.10.1976,"{'id': 354, 'title': 'Anapa'}",2,Alexander,Kovalchuk,True,False,
+140729087,10.9.1970,,2,Andrey,Gribakin,True,False,
+145358002,,,2,Maxim,Gritchin,False,True,
+151161501,29.3,,1,Marishul'ka,Markova,False,True,
+155191220,,,1,Yasenka,*******,True,False,
+157645268,11.9.1981,"{'id': 112, 'title': 'Petrozavodsk'}",1,Olga,Semyonova,True,False,
+168179903,20.9.1976,"{'id': 1, 'title': 'Moscow'}",2,DELETED,,True,False,deleted
+169063996,1.5.1994,"{'id': 112, 'title': 'Petrozavodsk'}",2,Πetr,Εrshov,True,False,
+175758875,7.6,"{'id': 314, 'title': 'Kyiv'}",2,Ivan,Kornienko,True,False,
+176512574,28.1.1983,"{'id': 119, 'title': 'Rostov-on-Don'}",2,DELETED,,True,False,deleted
+177121260,15.12.1945,"{'id': 112, 'title': 'Petrozavodsk'}",1,Galina,Gubina,True,False,
+179094103,13.6.1974,,2,Alexander,Tatarintsev,True,False,
+180167793,5.4.1988,"{'id': 7857, 'title': 'Pyaozersky'}",1,Lyubov,Dankanich,True,False,
+181102452,,,2,Mikhail,Zholudev,False,True,
+183644826,15.9,"{'id': 223, 'title': 'Donetsk'}",1,Molodezhnoe-Pravoslavnoe-Dvizhenie,Donetskoy-Eparkhii,True,False,
+188306034,10.1.1978,"{'id': 1, 'title': 'Moscow'}",2,Yury,Ptitsyn,False,True,
+192240013,,,2,Vladimir,Sobolev,True,False,
+194559807,26.4.1972,"{'id': 270, 'title': 'Podolsk'}",2,Dmitry,Kuchkin,True,False,
+216561929,28.8,"{'id': 1, 'title': 'Moscow'}",1,Marina,Teplova,True,False,
+221712162,11.3,"{'id': 1, 'title': 'Moscow'}",2,Theodore,Setsko,False,True,
+223591137,,"{'id': 1904869, 'title': 'Helsinki'}",1,DELETED,,True,False,deleted
+230282627,,"{'id': 20781, 'title': 'Québec'}",2,DELETED,,True,False,deleted
+232112474,25.6,,2,DELETED,,True,False,deleted
+249640297,,"{'id': 1, 'title': 'Moscow'}",1,Irina,Malina,True,False,banned
+271474305,19.7.1984,"{'id': 139, 'title': 'Taganrog'}",2,DELETED,,True,False,deleted
+290457018,28.2.1901,"{'id': 6031, 'title': 'Kalevala'}",2,Karjalan,Rahvahat,True,False,
+293162077,,"{'id': 2, 'title': 'Saint Petersburg'}",2,DELETED,,False,True,deleted
+326765219,30.6,"{'id': 151, 'title': 'Ufa'}",2,DELETED,,True,False,deleted
+330439623,23.11,"{'id': 1, 'title': 'Moscow'}",1,Lora,Sudenko,True,False,
+459990777,1.2.1901,"{'id': 1, 'title': 'Moscow'}",1,Valeria,Shipovkina,True,False,
+473032372,10.6,"{'id': 3223653, 'title': 'Alajärvi'}",1,Natalia,Romanova,True,False,
+521927746,,,2,Alexander,Chertov,True,False,
