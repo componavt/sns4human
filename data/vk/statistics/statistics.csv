@@ -1,0 +1,5 @@
+Группа ВК,Количество постов,Количество токенов,Количество уникальных слов,Средняя длина поста в словах
+https://raw.githubusercontent.com/componavt/sns4human/refs/heads/main/data/vk/posts/aparfenchikov.csv,8722,1296667,32502,148
+https://raw.githubusercontent.com/componavt/sns4human/refs/heads/main/data/vk/posts/minnazrk.csv,6256,646593,19729,103
+https://raw.githubusercontent.com/componavt/sns4human/refs/heads/main/data/vk/posts/rk_nationalmuseum.csv,7975,737230,26150,92
+https://raw.githubusercontent.com/componavt/sns4human/refs/heads/main/data/vk/posts/olonmus.csv,2231,303584,19916,136
