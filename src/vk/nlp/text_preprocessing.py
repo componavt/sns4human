@@ -23,6 +23,7 @@ Splits the text into sentences and words (removing hashtags)
 *  Нормализует слова через PyMorphy3 (приводит к начальной форме)
 *  Опционально добавляет знаки препинания (точки)
 *  Возвращает очищенную и лемматизированную строку.
+
 """
 
 import pandas as pd
@@ -33,6 +34,7 @@ import requests
 import csv
 import emoji
 from nltk.corpus import stopwords
+import re
 
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
@@ -52,8 +54,8 @@ def process_text(text, points=False):
 
     for sentence in sentences:
         processed_parts = []
-        tokenize_sent = [t for t in word_tokenize(sentence) if not t.startswith('#')]
-        for w in word_tokenize(tokenize_sent):
+        sentence = re.sub(r'#\w+', '', sentence)
+        for w in word_tokenize(sentence):
             if (len(w) == 1 or
                 ":" in emoji.demojize(w) or
                 not set(w.lower()).issubset(alphabet) or
