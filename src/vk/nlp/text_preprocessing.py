@@ -48,7 +48,7 @@ stop_words += requests.get('https://raw.githubusercontent.com/componavt/sns4huma
 alphabet = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя-.')
 morph = pymorphy3.MorphAnalyzer(lang='ru')
 
-def process_text(text, points=False, filter_fio=False):
+def process_text(text, filter_fio=False, points=False):
     sentences = sent_tokenize(text)
     processed_sentences = []
 
