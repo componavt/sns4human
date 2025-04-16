@@ -48,7 +48,7 @@ stop_words += requests.get('https://raw.githubusercontent.com/componavt/sns4huma
 alphabet = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя-.')
 morph = pymorphy3.MorphAnalyzer(lang='ru')
 
-def process_text(text, points=False, fio=False):
+def process_text(text, points=False, filter_fio=False):
     sentences = sent_tokenize(text)
     processed_sentences = []
 
@@ -63,7 +63,7 @@ def process_text(text, points=False, fio=False):
                 '\\' in w or
                 '/' in w):
                 continue
-            if fio:
+            if filter_fio:
                 w_tag = morph.parse(w.strip())[0].tag
                 if  'Surn' in w_tag or 'Name' in w_tag or 'Patr' in w_tag:
                     continue
