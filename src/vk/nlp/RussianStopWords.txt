@@ -1,3 +1,5 @@
+http
+https
 а
 е
 и
