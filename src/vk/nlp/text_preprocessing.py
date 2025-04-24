@@ -61,6 +61,16 @@ alphabet_dash = alphabet | {'-'} # Optionally allow hyphen (dash) as part of wor
 
 morph = pymorphy3.MorphAnalyzer(lang='ru')
 
+def strip_emojis(word):
+    """Remove emoji characters from the start and end of a word (preserve word body)."""
+    # Use regex to match emoji at word boundaries
+    emoji_pattern = re.compile(r'^(:[^:]+:)+|(:[^:]+:)+$')
+    return emoji_pattern.sub('', emoji.demojize(word))
+
+
+# if filter_fio then remove the last names from the text.
+# if period then then add a period at the end of each sentence.
+# ############################################################
 def process_text(text, filter_fio=False, period=False):
 
     sentences = sent_tokenize(text)  # Split into sentences
@@ -81,6 +91,8 @@ def process_text(text, filter_fio=False, period=False):
             check_hash = False
             continue
 
+          w = strip_emojis(w)  # Remove emoji characters from the start and end of a word
+              
           # skip name and surname if filter_fio
           if filter_fio:
             w_tag = morph.parse(w.strip())[0].tag
@@ -89,9 +101,7 @@ def process_text(text, filter_fio=False, period=False):
               # print(f"Filtered name/surname: {w} | Context: {context}")  # Debug output for context
               continue
 
-          if (set(w.lower()).issubset(alphabet_dash) and
-              contains_non_dash(w) and
-              ":" not in emoji.demojize(w)):  # skip emojis
+          if (set(w.lower()).issubset(alphabet_dash) and contains_non_dash(w)):
     
               res = morph.parse(w.lower())[0].normal_form
               if res and (res not in stop_words):
@@ -128,7 +138,3 @@ def get_text_window(words, index, window_size=3):
 def contains_non_dash(s):
     """Check if a string consists not only dash characters."""
     return s.count('-') < len(s)
-
-# if filter_fio then remove the last names from the text.
-# if period then then add a period at the end of each sentence.
-# ############################################################
