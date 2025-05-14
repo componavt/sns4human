@@ -1,0 +1,11 @@
+id,city,sex,name,can_access_closed,is_closed,bdate,deactivated
+340807,,1,Yulia K.,True,False,,
+435927,,1,Elena K.,True,False,,
+929126,,1,Maria N.,False,True,,
+1038897,Saint Petersburg,1,Marina K.,True,False,,
+1224398,Saint Petersburg,2,Dmitry R.,True,False,1973.0,
+1371231,Saint Petersburg,2,Roman E.,True,False,1977.0,
+1653536,Vyborg,1,Darya S.,True,False,,
+2042325,Petrozavodsk,2,Dmitry L.,False,True,1983.0,
+2048472,Saint Petersburg,1,Elena K.,True,False,,
+2272321,Petrozavodsk,1,Anna M.,True,False,,
