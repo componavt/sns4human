@@ -9,7 +9,7 @@ Open the file `vk_group_all_posts.ipynb` at [src/vk](https://github.com/componav
 
 Upload your `config.py` to the folder at Google Colab. 
 
-Write the VK group name in line "domain = 'some name, ID in really'
+Write the VK group name in line "domain = 'some name, ID in really'.
 
 Run [src/vk/vk_group_all_posts.ipynb](https://github.com/componavt/sns4human/blob/main/src/vk/vk_group_all_posts.ipynb).
 
